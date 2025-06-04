@@ -1,0 +1,5 @@
+Package: udp-vpn-client
+Version: 0.5
+Architecture: amd64
+Maintainer: Tu Nombre <tu@email.com>
+Description: VPN UDP - Cliente

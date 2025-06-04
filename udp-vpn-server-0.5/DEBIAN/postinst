@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+systemctl daemon-reload
+systemctl enable udp-vpn-server
+systemctl start udp-vpn-server

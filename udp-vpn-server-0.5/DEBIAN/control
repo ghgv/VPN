@@ -1,0 +1,5 @@
+Package: udp-vpn-server
+Version: 0.5
+Architecture: amd64
+Maintainer: Germán González <ghgv@yahoo.com>
+Description: VPN UDP - Cliente

@@ -42,7 +42,7 @@ void addRoute(char * destination, char* mask ,char* gateway)
 int main(int argc, char* argv[])
 {
     // usage: distination, mask  and gateway
-    if (argc = 4)
+    if (argc == 4)
         addRoute(argv[1],argv[2],argv[3]);
     else{
         printf("Few parameters");

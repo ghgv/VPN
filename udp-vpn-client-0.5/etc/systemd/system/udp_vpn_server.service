@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/usr/bin/udp_client /home/nec/config.conf
+ExecStart=/usr/local/bin/udp_server /etc/vpn/config.conf
 WorkingDirectory=/home/nec/
 
 [Install]
