@@ -1,0 +1,24 @@
+# Ignorar todos los archivos .o (objetos)
+*.o
+
+# Ignorar binarios
+bin/
+obj/
+udp_vpn_0.5/
+
+# Ignorar archivos temporales de editores
+*.swp
+*~
+.vscode/
+*.bak
+
+# Ignorar archivos de compilación
+*.out
+*.log
+
+# Ignorar paquetes
+*.tar.gz
+*.deb
+
+# Ignorar archivos de entorno
+.env
