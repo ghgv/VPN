@@ -25,13 +25,14 @@ sudo dpkg -i udp_vpn_0.5.deb
 sudo systemctl status vpn
 
 El programa para cliente busca automáticamente el archivo en el cual:
-
+```bash
 <configuration>
 	<server>cloudware.com.co</server>
 	<port>5000</port>
 	<timer>10</timer>
 	<target>10.0.0.1</target>
 </configuration>
+```
 
 El server es el dominio al cual se conecta. Port es el puerto del servidor y la IP es la IP del tunel UDP del lado del servidor.
 
@@ -51,7 +52,7 @@ Solo el binario:
 sudo dpkg -r vpn
 
 📁 Estructura del proyecto
-
+```bash
 .
 ├── src/                 → Código fuente en C
 ├── include/             → Archivos de encabezado (.h)
@@ -59,7 +60,7 @@ sudo dpkg -r vpn
 ├── etc/udp_vpn/         → Configuración por defecto
 ├── systemd/             → vpn.service
 ├── Makefile             → Compilación y empaquetado
-
+```
 📄 Licencia
 MIT License
 
