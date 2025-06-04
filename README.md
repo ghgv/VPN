@@ -17,14 +17,14 @@
 1. Descarga el paquete desde la sección [Releases](https://github.com/ghgv/udp_vpn/releases)
 2. Instala:
 
-```bash
+
 sudo dpkg -i udp_vpn_0.5.deb
 
 3. Verifica el servicio
 
 sudo systemctl status vpn
 
-El programa busca automáticamente el archivo:
+El programa para cliente busca automáticamente el archivo en el cual:
 
 <configuration>
 	<server>cloudware.com.co</server>
@@ -32,6 +32,8 @@ El programa busca automáticamente el archivo:
 	<timer>10</timer>
 	<target>10.0.0.1</target>
 </configuration>
+
+El server es el dominio al cual se conecta. Port es el puerto del servidor y la IP es la IP del tunel UDP del lado del servidor.
 
 
 El paquete .deb instala automáticamente el archivo:
