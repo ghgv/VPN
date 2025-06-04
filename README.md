@@ -5,7 +5,7 @@
 ## 🚀 Características
 
 - Comunicación punto a punto usando UDP
-- Archivo de configuración en `/etc/udp_vpn/config.cfg`
+- Archivo de configuración en `/etc/udp_vpn/config.conf`
 - Instalación limpia mediante paquete `.deb`
 - Servicio gestionado automáticamente por `systemd`
 - Proyecto compilable con Makefile
